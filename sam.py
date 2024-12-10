@@ -42,7 +42,7 @@ def generate_password(length, numbers=True, special_characters=True):
     return password
 
 
-)
+
 def index():
     if request.method == "POST":
         length = int(request.form["length"])
